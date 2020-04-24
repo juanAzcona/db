@@ -1,0 +1,419 @@
+{
+  "machines": [
+    {
+      "id": 1,
+      "mac": "00:00:00:00:00:01",
+      "ref": "stb_000000000001",
+      "roomtv_id": 5,
+      "type": "PC",
+      "state": "in-use",
+      "project_id": 1,
+      "chain_id": 1,
+      "colorschema_id": 1,
+      "background_id": 1,
+      "menu_id": 1,
+      "tvgrid_id": 3
+    },
+    {
+      "id": 2,
+      "mac": "00:00:00:00:01:02",
+      "ref": "stb_000000000012",
+      "roomtv_id": 5,
+      "type": "Smart-Tv",
+      "state": "in-use",
+      "project_id": 1,
+      "chain_id": 1,
+      "colorschema_id": 1,
+      "background_id": 2,
+      "menu_id": 2,
+      "tvgrid_id": 1
+    },
+    {
+      "id": 3,
+      "mac": "00:00:00:01:02:03",
+      "ref": "stb_000000000123",
+      "roomtv_id": 5,
+      "type": "STB",
+      "state": "in-use",
+      "project_id": 1,
+      "chain_id": 1,
+      "colorschema_id": 1,
+      "background_id": 3,
+      "menu_id": 3,
+      "tvgrid_id": 2
+    }
+  ],
+  "colorschemas": [
+    {
+      "id": 1,
+      "styles": "all style"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": 1,
+      "url": "http://www.lasrosas.com.ar/portal/wp-content/uploads/15-1.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://www.solofondos.com/wp-content/uploads/2017/08/3A0.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://besthqwallpapers.com/Uploads/27-12-2017/35365/baraza-resort-and-spa-4k-hotel-zanzibar-hdr.jpg"
+    },
+    {
+      "id": 4,
+      "url": ["/images/1234.jpg", "/images/2345.jpg", "/images/3456.jpg"]
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "home_text": "React Home",
+      "home_menuid": 100,
+      "home_icon": "faHotel",
+      "options_list": [
+        {
+          "menuid": 101,
+          "option_text": "TV",
+          "option_icon": "faTv"
+        },
+        {
+          "menuid": 102,
+          "option_text": "Movies",
+          "option_icon": "faFilm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "home_text": "TV",
+      "home_menuid": 101,
+      "home_icon": "faTv",
+      "options_list": [
+        {
+          "menuid": 100,
+          "option_text": "Hotel",
+          "option_icon": "faHotel"
+        },
+        {
+          "menuid": 102,
+          "option_text": "Movies",
+          "option_icon": "faFilm"
+        },
+        {
+          "menuid": 103,
+          "option_text": "Musica",
+          "option_icon": "faMusic"
+        },
+        {
+          "menuid": 104,
+          "option_text": "Room Shop",
+          "option_icon": "faShoppingCart"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "home_text": "Movies",
+      "home_menuid": 102,
+      "home_icon": "faFilm",
+      "options_list": [
+        {
+          "menuid": 100,
+          "option_text": "Hotel",
+          "option_icon": "faHotel"
+        },
+        {
+          "menuid": 101,
+          "option_text": "Tv",
+          "option_icon": "faTv"
+        },
+        {
+          "menuid": 103,
+          "option_text": "Musica",
+          "option_icon": "faMusic"
+        },
+        {
+          "menuid": 104,
+          "option_text": "Room Shop",
+          "option_icon": "faShoppingCart"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "name": "La 1",
+      "isradio": "false",
+      "country_id": 178,
+      "logo_ref": "https://album.mediaset.es/file/10002/2017/11/17/fdf_circular_500_-2_8dd4.png",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 2,
+      "name": "La 2",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://st-listas.20minutos.es/images/2012-06/334484/3580909_640px.jpg?1339969772",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Antena 3",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://brandemia.org/sites/default/files/inline/images/antena3_logo_nuevo.jpg",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Cuatro HD",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://album.mediaset.es/file/10002/2017/11/17/cuatro_logo_500_-1_343d.png",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Tele 5",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Telecinco.svg",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 6,
+      "name": "La sexta",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/1000px-La_Sexta_%28A3M%29.svg.png",
+      "information": "",
+      "chain_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Teledeporte",
+      "isradio": "false",
+      "country_id": 179,
+      "logo_ref": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tve_teledeporte.png",
+      "information": "",
+      "chain_id": 1
+    }
+  ],
+  "tunes": [
+    {
+      "id": 1001,
+      "type": "HLS",
+      "channelsId": 1,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_4.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1002,
+      "type": "HLS",
+      "channelsId": 2,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "http://mdslivehls-i.akamaihd.net/hls/live/571648/divinity/bitrate_4.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1003,
+      "type": "LAN",
+      "channelsId": 1,
+      "monitorized": "false",
+      "tuneinfo": {
+        "ip": "239.255.21.1",
+        "port": "1001"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1004,
+      "type": "LAN",
+      "channelsId": 2,
+      "monitorized": "false",
+      "tuneinfo": {
+        "ip": "239.255.21.2",
+        "port": "1002"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1005,
+      "type": "HLS",
+      "channelsId": 3,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://rtvelivestream.akamaized.net/la1_dvr.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1006,
+      "type": "HLS",
+      "channelsId": 4,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://rtvelivestream.akamaized.net/la2_dvr.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1007,
+      "type": "HLS",
+      "channelsId": 5,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livehlsdai-i.akamaihd.net/hls/live/571640/telecinco/bitrate_2.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1008,
+      "type": "HLS",
+      "channelsId": 6,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover.atresmedia.com/geolasexta/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1009,
+      "type": "HLS",
+      "channelsId": 7,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover.atresmedia.com/lasexta/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1010,
+      "type": "HLS",
+      "channelsId": 3,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover-i.akamaized.net/neox/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1011,
+      "type": "HLS",
+      "channelsId": 4,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover-i.akamaized.net/nova/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1012,
+      "type": "HLS",
+      "channelsId": 5,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover-i.akamaized.net/geomega/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1013,
+      "type": "HLS",
+      "channelsId": 1,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://livestartover-i.akamaized.net/a3series/master.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1014,
+      "type": "HLS",
+      "channelsId": 2,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://rtvelivestream.akamaized.net/la1_dvr.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1015,
+      "type": "HLS",
+      "channelsId": 3,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://mdslivehlsb-i.akamaihd.net/hls/live/623617/energy/bitrate_4.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1016,
+      "type": "HLS",
+      "channelsId": 4,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://mdslivehlsb-i.akamaihd.net/hls/live/623615/bemad/bitrate_4.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    },
+    {
+      "id": 1017,
+      "type": "HLS",
+      "channelsId": 7,
+      "monitorized": "false",
+      "tuneinfo": {
+        "url": "https://paramount-live.flumotion.com/live/playlist.m3u8"
+      },
+      "project_id": 1,
+      "chain_id": 1
+    }
+  ],
+  "tvgrids": [
+    {
+      "id": 1,
+      "name": "todos",
+      "tunesId": [1001, 1002, 1005, 1006, 1007, 1008, 1009]
+    },
+    {
+      "id": 2,
+      "name": "just 1",
+      "tunesId": [1001]
+    },
+    {
+      "id": 3,
+      "name": "4 canales iniciales",
+      "tunesId": [1001, 1002, 1003, 1004]
+    }
+  ]
+}
